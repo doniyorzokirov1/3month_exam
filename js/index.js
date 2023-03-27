@@ -1,0 +1,1 @@
+alert(`Algoritmlarning natijasini "console.log" orqali tekshiring!`)

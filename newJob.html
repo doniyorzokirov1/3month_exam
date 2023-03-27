@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>newJobs</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container d-md-flex pt-5 justify-content-between d-block">
+        <div class="box-form md-w-100 w-100 h-100 mb-5">
+          <div class="w-75 mx-auto">
+            <h3 class="text-center pb-3">Create Job</h3>
+            <form class="form">
+              <label class="pb-2" for="name">Company name</label>
+              <br />
+              <input
+                class="input-name form-control"
+                type="text"
+                placeholder="Company name"
+                id="name"
+                name="name"
+                required
+              />
+              <br />
+
+              <label class="pb-2" for="title">Job Title</label>
+              <br />
+              <input
+                class="input-title form-control"
+                type="text"
+                placeholder="Job Title"
+                id="title"
+                name="title"
+              />
+              <br />
+
+              <label class="pb-2" for="salary">Salary</label>
+              <br />
+              <input
+                class="input-salary form-control"
+                type="text"
+                placeholder="Salary"
+                id="salary"
+                name="salary"
+              />
+              <br />
+              <button class="btn btn-outline-success" type="submit">
+                Create
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="box w-100">
+          <div class="w-75 mx-auto">
+            <h3 class="text-center pb-3">All Jobs</h3>
+          <ul class="jobs-lists ps-0">
+          </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/newJob.js"></script>
+  </body>
+</html>
